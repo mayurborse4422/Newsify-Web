@@ -1,0 +1,65 @@
+/* .body{
+  background-color: black;
+  color: white;
+} */
+.card-img-top{
+    margin-top: 10px;
+    width: 262.67px;
+    height: 190px;
+}
+.cardy{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+body{
+  font-family :'Times New Roman', Times, serif;
+}
+.news{
+  text-decoration: none;
+  color: white;
+}
+.news:hover{
+  color: white;
+}
+.card{
+    margin: 12.8px;
+    margin-bottom: 24px;
+    transition: box-shadow .3s;
+    float: left;
+}
+.card:hover{
+  box-shadow: 8px 8px 8px rgb(25, 47, 55); 
+  transform: scale(1.045);
+}
+.card-title{
+  font-size: large;
+}
+.card-date{
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 2px;
+  margin-left: 20px;
+}
+
+#searchresult{
+  margin-left: 20px;
+  font-size: 22px;
+  font-style: bold;
+}
+
+.popout {
+  animation: popout 0.8s ease;
+  -webkit-animation: popout 0.8s ease;
+}
+@keyframes popout {
+  from{transform:scale(0)}
+  80%{transform:scale(1.02)}
+  to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+  from{-webkit-transform:scale(0)}
+  80%{-webkit-transform:scale(1.02)}
+  to{-webkit-transform:scale(1)}
+}
